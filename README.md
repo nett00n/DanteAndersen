@@ -1,7 +1,11 @@
 # Dante Andersen
 It's a bash script for installing and base configuring dante server SOCKS5
 
-`bash main.sh`
+1 `git clone git@github.com:nett00n/DanteAndersen.git`
+
+1 Fill usersl.txt with your users
+
+1 `bash main.sh`
 
 * Scripts selects default IP as listening automaticaly. If anything goes wrong, you can set your IP in config.ini. Same thing with Socks5 port
 
