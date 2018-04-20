@@ -7,4 +7,7 @@
         notifempty
         create 0640 root root
         sharedscripts
+	postrotate
+		sudo kill -HUP $(cat /var/run/danted.pid)
+	endscript
 }
