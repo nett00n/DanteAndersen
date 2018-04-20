@@ -1,0 +1,4 @@
+.*
+!.gitignore
+users.txt
+config.ini
